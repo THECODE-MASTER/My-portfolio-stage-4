@@ -1,0 +1,117 @@
+*{
+  background-color: black;
+}
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white
+}
+.header *{
+  border:solid
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+.self {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+h1{
+color: white;
+margin: 1px;
+padding: 1px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #000000;
+    }
+
+.footer {
+    color:gold;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #000000;
+}
+.social {
+  color:gold;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #000000; 
+}
+
+a {
+  color: darkgoldenrod;
+}
+
+p {
+    text-align: center;
+}
+a:link{
+  color: gold
+}
+a:visited{
+  color:goldenrod
+}
+.hotel{
+  position: relative
+}
+.hotel p{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  opacity:0;
+}
+.hotel:hover p{
+  opacity:1;
+}
+
+.hotel:hover img{
+  opacity:0.1
+}
+
+.footer p{
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  opacity:0;
+}
+.footer:hover p{
+  opacity:1
+}
+.footer:hover img{
+  opacity:0.1
+}
+.prof p{
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  opacity:0;
+}
+.prof:hover p{
+  opacity:1
+}
+.prof:hover img{
+  opacity:0.1
+}
+.self p{
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  opacity:0;
+}
+.self:hover p{
+  opacity:1
+}
+.self:hover img{
+  opacity:0.1
+}
